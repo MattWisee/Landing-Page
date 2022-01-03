@@ -4,26 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome Website</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Monday Motivation</title>
 </head>
 <body>
-    <header>
-        <div>Header Logo</div>
-        <ul>
-            <li>Header Link One</li>
-            <li>Header Link Two</li>
-            <li>Header Link Three</li>
-        </ul>
-    </header>
+    <div class="main">
 
+        <div class="top">
+            <nav>
+                <ul class="menu">
+                    <li id="menu-left"><b>Monday Motivation</b></li>
+                    <li id="menu-right"><a href="index.html">Quotes</a></li>
+                    <li id="menu-right"><a href="index.html">Videos</a></li>
+                    <li id="menu-right"><a href="index.html">Books</a></li>
+                </ul>
+            </nav>
 
-    <div class="total">
+            <div class="hero"> 
 
-        <div class="intro">
-            <h2>This website is awesome</h2>
-            <p>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast</p>
-            <button>Sign Up</button>
-            <img src="/photos/moti.jpeg" alt="Difficult Roads Lead To Beautiful Destinations">
+                    <div class="hero-info">
+                        <div class="hero-title"><strong>So far, You've survived 100% of your worst days</strong></div>
+                        <p>We must learn to set a goal or target in front of our eyes to gaze upon. It is only when we aim at something that we have any chance of hitting it.</p>
+                        <button class="subscribe">Subscribe</button>
+                    </div>
+
+                <div class="hero-image">
+                    <img class="success" src="/photos/moti.jpeg" alt="Difficult Roads Lead To Beautiful Destinations">
+                </div>   
+            </div>
         </div>
 
         <div class="photos">
@@ -36,6 +44,20 @@
                 </ul>
         </div>
 
+        <div class="quote">
+            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <div class="author">-Thor, God of Thunder</div>
+        </div>
+
+        <div class="action">
+            <div>Call to action! It's time!</div>
+            <div>Sign up for our product by clicking that button right over there</div>
+            <button>Sign Up</button>
+        </div>
+
+        <footer>
+            <div>Copyright &#169; The Odin Project 2021</div>
+        </footer>
     </div>
 </body>
 </html>
